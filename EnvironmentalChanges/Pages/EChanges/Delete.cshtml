@@ -1,0 +1,46 @@
+@page
+@model EnvironmentalChanges.Pages_EChanges.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>EChange</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EChange.TypesOfWeather)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EChange.TypesOfWeather)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EChange.WeatherTiming)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EChange.WeatherTiming)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EChange.FoodInWeather)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EChange.FoodInWeather)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EChange.WeatherGarments)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EChange.WeatherGarments)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="EChange.ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>
