@@ -1,0 +1,27 @@
+@page "/GroceryStore"
+
+<h1>Grocery List</h1>
+
+<ul>
+    @foreach (var GroceryItem in newFoodList)
+    {
+        <li>@GroceryItem.FoodItemsList</li>
+        <li>@GroceryItem.isleName</li>
+        <li>@GroceryItem.isleNumber</li>
+
+        //<input @bind= "GroceryItem.FoodItemsList" />
+        //<input @bind= "GroceryItem.isleName" />
+        //<input @bind= "GroceryItem.isleNumber" />
+    }
+</ul>
+
+<input placeholder="Something for grocery" />
+<button @onclick="AddGrocery">Add Grocery List</button>
+
+@code {
+   
+         private List<GroceryIsle> newFoodList = new();
+         private void AddGrocery()
+        {
+        }
+}

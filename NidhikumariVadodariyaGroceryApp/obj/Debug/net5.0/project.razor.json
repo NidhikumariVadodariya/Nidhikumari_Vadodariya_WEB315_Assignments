@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\NidhikumariVadodariyaGroceryApp.csproj",
+  "FilePath": "c:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\NidhikumariVadodariyaGroceryApp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -11,39 +11,6 @@
   },
   "ProjectWorkspaceState": {
     "TagHelpers": [
-      {
-        "HashCode": 1011009710,
-        "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.Pages.Counter",
-        "AssemblyName": "NidhikumariVadodariyaGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -1605988683,
-        "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.Pages.Counter",
-        "AssemblyName": "NidhikumariVadodariyaGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NidhikumariVadodariyaGroceryApp.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
       {
         "HashCode": -1421604721,
         "Kind": "Components.Component",
@@ -74,39 +41,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 926401356,
-        "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.Pages.Grocery",
-        "AssemblyName": "NidhikumariVadodariyaGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Grocery"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.Grocery"
-        }
-      },
-      {
-        "HashCode": -1700882206,
-        "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.Pages.Grocery",
-        "AssemblyName": "NidhikumariVadodariyaGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NidhikumariVadodariyaGroceryApp.Pages.Grocery"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.Grocery",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -144,35 +78,101 @@
         }
       },
       {
-        "HashCode": 124655373,
+        "HashCode": 1011009710,
         "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.App",
+        "Name": "NidhikumariVadodariyaGroceryApp.Pages.Counter",
         "AssemblyName": "NidhikumariVadodariyaGroceryApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.App"
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.Counter"
         }
       },
       {
-        "HashCode": -366821759,
+        "HashCode": -1605988683,
         "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.App",
+        "Name": "NidhikumariVadodariyaGroceryApp.Pages.Counter",
         "AssemblyName": "NidhikumariVadodariyaGroceryApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NidhikumariVadodariyaGroceryApp.App"
+            "TagName": "NidhikumariVadodariyaGroceryApp.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.App",
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -397357001,
+        "Kind": "Components.Component",
+        "Name": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore",
+        "AssemblyName": "NidhikumariVadodariyaGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "GroceryStore"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore"
+        }
+      },
+      {
+        "HashCode": -997025250,
+        "Kind": "Components.Component",
+        "Name": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore",
+        "AssemblyName": "NidhikumariVadodariyaGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -3165154,
+        "Kind": "Components.Component",
+        "Name": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu",
+        "AssemblyName": "NidhikumariVadodariyaGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1559503404,
+        "Kind": "Components.Component",
+        "Name": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu",
+        "AssemblyName": "NidhikumariVadodariyaGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -326,35 +326,35 @@
         }
       },
       {
-        "HashCode": -3165154,
+        "HashCode": 124655373,
         "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu",
+        "Name": "NidhikumariVadodariyaGroceryApp.App",
         "AssemblyName": "NidhikumariVadodariyaGroceryApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu"
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.App"
         }
       },
       {
-        "HashCode": -1559503404,
+        "HashCode": -366821759,
         "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu",
+        "Name": "NidhikumariVadodariyaGroceryApp.App",
         "AssemblyName": "NidhikumariVadodariyaGroceryApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu"
+            "TagName": "NidhikumariVadodariyaGroceryApp.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu",
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15966,59 +15966,59 @@
   "RootNamespace": "NidhikumariVadodariyaGroceryApp",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\Pages\\FetchData.razor",
+      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\Pages\\FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\Pages\\_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\Shared\\SurveyPrompt.razor",
+      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
+      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\_Imports.razor",
+      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\Shared\\NavMenu.razor",
+      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\Pages\\Grocery.razor",
-      "TargetPath": "Pages\\Grocery.razor",
+      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\App.razor",
+      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
+      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\Pages\\_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\Pages\\GroceryStore.razor",
+      "TargetPath": "Pages\\GroceryStore.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
     }
   ],
   "SerializationFormat": "0.2"

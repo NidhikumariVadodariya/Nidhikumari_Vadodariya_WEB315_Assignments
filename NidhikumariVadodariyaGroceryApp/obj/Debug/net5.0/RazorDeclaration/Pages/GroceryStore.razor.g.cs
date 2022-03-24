@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace NidhikumariVadodariyaGroceryApp
+namespace NidhikumariVadodariyaGroceryApp.Pages
 {
     #line hidden
     using System;
@@ -82,13 +82,26 @@ using NidhikumariVadodariyaGroceryApp.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class App : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/GroceryStore")]
+    public partial class GroceryStore : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 21 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\Pages\GroceryStore.razor"
+       
+   
+         private List<GroceryIsle> newFoodList = new();
+         private void AddGrocery()
+        {
+        }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

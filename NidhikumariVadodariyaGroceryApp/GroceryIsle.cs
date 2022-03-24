@@ -1,7 +1,7 @@
 public class GroceryIsle
 {
-    public string List_of_FoodItems { get; set; }
-    public string isle_name  { get; set; }
-    public string isle_number  { get; set; }
+    public string FoodItemsList { get; set; }
+    public string isleName  { get; set; }
+    public string isleNumber  { get; set; }
 
 }

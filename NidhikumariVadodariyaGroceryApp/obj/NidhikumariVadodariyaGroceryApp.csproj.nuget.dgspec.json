@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\NidhikumariVadodariyaGroceryApp.csproj": {}
+    "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\NidhikumariVadodariyaGroceryApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\NidhikumariVadodariyaGroceryApp.csproj": {
+    "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\NidhikumariVadodariyaGroceryApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\NidhikumariVadodariyaGroceryApp.csproj",
+        "projectUniqueName": "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\NidhikumariVadodariyaGroceryApp.csproj",
         "projectName": "NidhikumariVadodariyaGroceryApp",
-        "projectPath": "C:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\NidhikumariVadodariyaGroceryApp.csproj",
+        "projectPath": "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\NidhikumariVadodariyaGroceryApp.csproj",
         "packagesPath": "C:\\Users\\nidhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nidhi\\OneDrive\\Desktop\\ASP .net semester 2\\Assignment 02\\NidhikumariVadodariyaGroceryApp\\obj\\",
+        "outputPath": "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\NidhikumariVadodariyaGroceryApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nidhi\\AppData\\Roaming\\NuGet\\NuGet.Config"

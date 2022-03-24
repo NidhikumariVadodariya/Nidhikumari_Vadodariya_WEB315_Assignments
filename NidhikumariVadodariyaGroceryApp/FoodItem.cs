@@ -1,8 +1,7 @@
-public class Fooditem
+public class FoodItem
 {
-    public decimal goods_and_services_tax { get; set; }
-    public string Potato_Chips  { get; set; }
-    public string Chocolates  { get; set; }    
-    public string Maggie  { get; set; }    
+    public int UPC_Number { get; set; }
+    public string Flour  { get; set; }
+    public string Frozen_Food  { get; set; }   
 
 }
