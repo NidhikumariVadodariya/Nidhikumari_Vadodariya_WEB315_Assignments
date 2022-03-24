@@ -1,0 +1,19 @@
+@page "/Grocery"
+
+<h1>Grocery</h1>
+
+<ul>
+    @foreach (var grocery in groceries)
+    {
+        <li>@grocery.List_of_FoodItems</li>
+        <li>@grocery.isle_name</li>
+        <li>@grocery.isle_number</li>
+    }
+</ul>
+
+<input placeholder="Something for grocery" />
+<button>Add Grocery List</button>
+
+@code {
+    private List<Grocery> groceries = new();
+}
