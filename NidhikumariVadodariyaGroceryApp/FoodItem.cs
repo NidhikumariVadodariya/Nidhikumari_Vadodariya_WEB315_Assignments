@@ -1,7 +1,9 @@
 public class FoodItem
 {
-    public int UPC_Number { get; set; }
-    public string Flour  { get; set; }
-    public string Frozen_Food  { get; set; }   
+
+    public string Quantity { get; set; }
+    public string foodItemName  { get; set; }
+    public string foodItemWeight { get; set; }
+    public string foodItemPrice  { get; set; }   
 
 }

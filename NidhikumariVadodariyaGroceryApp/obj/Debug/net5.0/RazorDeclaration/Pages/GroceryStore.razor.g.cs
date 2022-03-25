@@ -13,70 +13,70 @@ namespace NidhikumariVadodariyaGroceryApp.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
+#line 1 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
+#line 2 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
+#line 3 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
+#line 4 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
+#line 5 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
+#line 6 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
+#line 7 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
+#line 8 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
+#line 9 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
 using NidhikumariVadodariyaGroceryApp;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
+#line 10 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\_Imports.razor"
 using NidhikumariVadodariyaGroceryApp.Shared;
 
 #line default
@@ -91,12 +91,42 @@ using NidhikumariVadodariyaGroceryApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 21 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\Pages\GroceryStore.razor"
+#line 28 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\Pages\GroceryStore.razor"
        
    
-         private List<GroceryIsle> newFoodList = new();
+        private List<FoodItem> newFoodList = new();
+
+        private string newItem;
+        private string newItem1;
+        private string newItem2;
+        private string newItem3;
+        
          private void AddGrocery()
         {
+           if (!string.IsNullOrWhiteSpace(newItem))
+            {
+            newFoodList.Add(new FoodItem { Quantity = newItem });
+            newItem = string.Empty;
+            }
+
+            if (!string.IsNullOrWhiteSpace(newItem1))
+            {
+            newFoodList.Add(new FoodItem { foodItemName = newItem1 });
+            newItem1 = string.Empty;
+            }
+
+            if (!string.IsNullOrWhiteSpace(newItem2))
+            {
+            newFoodList.Add(new FoodItem { foodItemWeight = newItem2 });
+            newItem2 = string.Empty;
+            }
+
+            if (!string.IsNullOrWhiteSpace(newItem3))
+            {
+            newFoodList.Add(new FoodItem { foodItemPrice = newItem3 });
+            newItem3 = string.Empty;
+            }
+ 
         }
 
 #line default

@@ -5,23 +5,60 @@
 <ul>
     @foreach (var GroceryItem in newFoodList)
     {
-        <li>@GroceryItem.FoodItemsList</li>
-        <li>@GroceryItem.isleName</li>
-        <li>@GroceryItem.isleNumber</li>
-
-        //<input @bind= "GroceryItem.FoodItemsList" />
-        //<input @bind= "GroceryItem.isleName" />
-        //<input @bind= "GroceryItem.isleNumber" />
+        <li>@GroceryItem.Quantity</li>
+        <li>@GroceryItem.foodItemName</li>
+        <li>@GroceryItem.foodItemWeight</li>
+        <li>@GroceryItem.foodItemPrice</li>
     }
 </ul>
 
-<input placeholder="Something for grocery" />
-<button @onclick="AddGrocery">Add Grocery List</button>
+<input placeholder="Add Quantity" @bind="newItem" />
+<button @onclick="AddGrocery">Add Quantity</button>
+
+<input placeholder="Add food item name" @bind="newItem1" />
+<button @onclick="AddGrocery">Add Food Item</button>
+
+<input placeholder="Add food item weight" @bind="newItem2" />
+<button @onclick="AddGrocery">Add Food Weight</button>
+
+<input placeholder="Add food item price" @bind="newItem3" />
+<button @onclick="AddGrocery">Add Food Price</button>
+
 
 @code {
    
-         private List<GroceryIsle> newFoodList = new();
+        private List<FoodItem> newFoodList = new();
+
+        private string newItem;
+        private string newItem1;
+        private string newItem2;
+        private string newItem3;
+        
          private void AddGrocery()
         {
+           if (!string.IsNullOrWhiteSpace(newItem))
+            {
+            newFoodList.Add(new FoodItem { Quantity = newItem });
+            newItem = string.Empty;
+            }
+
+            if (!string.IsNullOrWhiteSpace(newItem1))
+            {
+            newFoodList.Add(new FoodItem { foodItemName = newItem1 });
+            newItem1 = string.Empty;
+            }
+
+            if (!string.IsNullOrWhiteSpace(newItem2))
+            {
+            newFoodList.Add(new FoodItem { foodItemWeight = newItem2 });
+            newItem2 = string.Empty;
+            }
+
+            if (!string.IsNullOrWhiteSpace(newItem3))
+            {
+            newFoodList.Add(new FoodItem { foodItemPrice = newItem3 });
+            newItem3 = string.Empty;
+            }
+ 
         }
 }
