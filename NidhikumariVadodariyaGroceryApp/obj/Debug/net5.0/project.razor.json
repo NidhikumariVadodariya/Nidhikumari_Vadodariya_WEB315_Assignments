@@ -12,35 +12,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1011009710,
+        "HashCode": -397357001,
         "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.Pages.Counter",
+        "Name": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore",
         "AssemblyName": "NidhikumariVadodariyaGroceryApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "GroceryStore"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.Counter"
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore"
         }
       },
       {
-        "HashCode": -1605988683,
+        "HashCode": -997025250,
         "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.Pages.Counter",
+        "Name": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore",
         "AssemblyName": "NidhikumariVadodariyaGroceryApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NidhikumariVadodariyaGroceryApp.Pages.Counter"
+            "TagName": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.Counter",
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -78,39 +78,6 @@
         }
       },
       {
-        "HashCode": -397357001,
-        "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore",
-        "AssemblyName": "NidhikumariVadodariyaGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "GroceryStore"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore"
-        }
-      },
-      {
-        "HashCode": -997025250,
-        "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore",
-        "AssemblyName": "NidhikumariVadodariyaGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.GroceryStore",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 829887388,
         "Kind": "Components.Component",
         "Name": "NidhikumariVadodariyaGroceryApp.Pages.Index",
@@ -144,35 +111,68 @@
         }
       },
       {
-        "HashCode": 124655373,
+        "HashCode": 1011009710,
         "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.App",
+        "Name": "NidhikumariVadodariyaGroceryApp.Pages.Counter",
         "AssemblyName": "NidhikumariVadodariyaGroceryApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.App"
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.Counter"
         }
       },
       {
-        "HashCode": -366821759,
+        "HashCode": -1605988683,
         "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.App",
+        "Name": "NidhikumariVadodariyaGroceryApp.Pages.Counter",
         "AssemblyName": "NidhikumariVadodariyaGroceryApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NidhikumariVadodariyaGroceryApp.App"
+            "TagName": "NidhikumariVadodariyaGroceryApp.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.App",
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -3165154,
+        "Kind": "Components.Component",
+        "Name": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu",
+        "AssemblyName": "NidhikumariVadodariyaGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1559503404,
+        "Kind": "Components.Component",
+        "Name": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu",
+        "AssemblyName": "NidhikumariVadodariyaGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -326,35 +326,35 @@
         }
       },
       {
-        "HashCode": -3165154,
+        "HashCode": 124655373,
         "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu",
+        "Name": "NidhikumariVadodariyaGroceryApp.App",
         "AssemblyName": "NidhikumariVadodariyaGroceryApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu"
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.App"
         }
       },
       {
-        "HashCode": -1559503404,
+        "HashCode": -366821759,
         "Kind": "Components.Component",
-        "Name": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu",
+        "Name": "NidhikumariVadodariyaGroceryApp.App",
         "AssemblyName": "NidhikumariVadodariyaGroceryApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu"
+            "TagName": "NidhikumariVadodariyaGroceryApp.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.Shared.NavMenu",
+          "Common.TypeName": "NidhikumariVadodariyaGroceryApp.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

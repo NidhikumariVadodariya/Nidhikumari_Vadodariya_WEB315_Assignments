@@ -91,43 +91,134 @@ using NidhikumariVadodariyaGroceryApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\Pages\GroceryStore.razor"
+#line 53 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\Pages\GroceryStore.razor"
        
-   
-        private List<FoodItem> newFoodList = new();
 
-        private string newItem;
-        private string newItem1;
-        private string newItem2;
-        private string newItem3;
-        
-         private void AddGrocery()
+
+    private List<GroceryIsle> groceryIsle = new List<GroceryIsle>();
+    private List<FoodItem> tmpItems = new List<FoodItem>();
+    private string currentIsle = "";
+
+    
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 60 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\Pages\GroceryStore.razor"
+                             
+    private void AddProducts()
+    {
+        Console.Write("worked");
+        GroceryIsle isl1 = new GroceryIsle();
+        isl1.isleName = "Vegetables";
+        isl1.isleNumber = 1;
+        isl1.FoodItemsList.Add(new FoodItem
         {
-           if (!string.IsNullOrWhiteSpace(newItem))
-            {
-            newFoodList.Add(new FoodItem { Quantity = newItem });
-            newItem = string.Empty;
-            }
+            Quantity = 1,
+            foodItemName = "Tomato",
+            foodItemWeight = "1/2 lb",
+            foodItemPrice =
+        1.45
+        });
+        isl1.FoodItemsList.Add(new FoodItem
+        {
+            Quantity = 1,
+            foodItemName = "Onion",
+            foodItemWeight = "1/2 lb",
+            foodItemPrice =
+        1.78
+        });
+        isl1.FoodItemsList.Add(new FoodItem
+        {
+            Quantity = 1,
+            foodItemName = "Carrot",
+            foodItemWeight = "1/2 lb",
+            foodItemPrice =
+        2.00
+        });
 
-            if (!string.IsNullOrWhiteSpace(newItem1))
-            {
-            newFoodList.Add(new FoodItem { foodItemName = newItem1 });
-            newItem1 = string.Empty;
-            }
+        GroceryIsle isl2 = new GroceryIsle();
+        isl2.isleName = "Produce";
+        isl2.isleNumber = 2;
+        isl2.FoodItemsList.Add(new FoodItem
+        {
+            Quantity = 15,
+            foodItemName = "Apples",
+            foodItemWeight = "1.5",
+            foodItemPrice =
+        2.99
+        });
+        isl2.FoodItemsList.Add(new FoodItem
+        {
+            Quantity = 20,
+            foodItemName = "Oranges",
+            foodItemWeight = "1.5",
+            foodItemPrice =
+        5.99
+        });
+        isl2.FoodItemsList.Add(new FoodItem
+        {
+            Quantity = 10,
+            foodItemName = "Lemons",
+            foodItemWeight = "1.5",
+            foodItemPrice =
+        1.99
+        });
 
-            if (!string.IsNullOrWhiteSpace(newItem2))
-            {
-            newFoodList.Add(new FoodItem { foodItemWeight = newItem2 });
-            newItem2 = string.Empty;
-            }
 
-            if (!string.IsNullOrWhiteSpace(newItem3))
+        GroceryIsle isl3 = new GroceryIsle();
+        isl3.isleName = "Dairy";
+        isl3.isleNumber = 3;
+        isl3.FoodItemsList.Add(new FoodItem
+        {
+            Quantity = 10,
+            foodItemName = "Milk",
+            foodItemWeight = "1.5",
+            foodItemPrice = 5.99
+        });
+        isl3.FoodItemsList.Add(new FoodItem
+        {
+            Quantity = 20,
+            foodItemName = "Yogurt",
+            foodItemWeight = "1.5",
+            foodItemPrice =
+        2.79
+        });
+        isl3.FoodItemsList.Add(new FoodItem
+        {
+            Quantity = 5,
+            foodItemName = "Butter",
+            foodItemWeight = "1.5",
+            foodItemPrice =
+        5.00
+        });
+
+        groceryIsle.Add(isl1);
+        groceryIsle.Add(isl2);
+        groceryIsle.Add(isl3);
+    }
+
+    
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 153 "c:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\Pages\GroceryStore.razor"
+                          
+    private List<FoodItem> GetItems(int isleNumber)
+    {
+        foreach (var GroceryIsle in groceryIsle)
+        {
+            if (GroceryIsle.isleNumber == isleNumber)
             {
-            newFoodList.Add(new FoodItem { foodItemPrice = newItem3 });
-            newItem3 = string.Empty;
+                currentIsle = GroceryIsle.isleName;
+                return GroceryIsle.FoodItemsList;
             }
- 
         }
+        return new List<FoodItem>();
+    }
 
 #line default
 #line hidden
