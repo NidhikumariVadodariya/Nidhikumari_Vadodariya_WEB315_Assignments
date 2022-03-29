@@ -1,6 +1,5 @@
 public class FoodItem
 {
-
     public string foodItemName  { get; set; }
     public double foodItemPrice  { get; set; }   
     public int Quantity { get; set; }

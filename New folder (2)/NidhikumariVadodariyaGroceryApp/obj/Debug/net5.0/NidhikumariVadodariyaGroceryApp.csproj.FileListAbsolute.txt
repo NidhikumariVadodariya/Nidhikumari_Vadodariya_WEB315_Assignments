@@ -1,0 +1,180 @@
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\appsettings.json
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.StaticWebAssets.xml
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.exe
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.deps.json
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.runtimeconfig.json
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.runtimeconfig.dev.json
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\ref\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.pdb
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.Views.dll
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.Views.pdb
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.csproj.AssemblyReference.cache
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.AssemblyInfoInputs.cache
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.AssemblyInfo.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorComponent.input.cache
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorComponent.output.cache
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.TagHelpers.input.cache
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.TagHelpers.output.cache
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorCoreGenerate.cache
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\App.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorAssemblyInfo.cache
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorAssemblyInfo.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\staticwebassets\NidhikumariVadodariyaGroceryApp.StaticWebAssets.Manifest.cache
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\staticwebassets\NidhikumariVadodariyaGroceryApp.StaticWebAssets.xml
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\scopedcss\bundle\NidhikumariVadodariyaGroceryApp.styles.css
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\scopedcss\projectbundle\NidhikumariVadodariyaGroceryApp.bundle.scp.css
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorTargetAssemblyInfo.cache
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorTargetAssemblyInfo.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.Views.pdb
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\ref\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.pdb
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.genruntimeconfig.cache
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.csproj.CopyComplete
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\Grocery.razor.g.cs
+C:\Users\nidhi\OneDrive\Desktop\ASP .net semester 2\Assignment 02\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\Grocery.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.csproj.AssemblyReference.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.AssemblyInfoInputs.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.AssemblyInfo.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorComponent.input.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\GroceryStore.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorComponent.output.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.TagHelpers.input.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.TagHelpers.output.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorCoreGenerate.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\App.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\GroceryStore.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorAssemblyInfo.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorAssemblyInfo.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\ref\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.pdb
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\appsettings.json
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.StaticWebAssets.xml
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.exe
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.deps.json
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.runtimeconfig.json
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.runtimeconfig.dev.json
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\ref\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.pdb
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.Views.dll
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.Views.pdb
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\staticwebassets\NidhikumariVadodariyaGroceryApp.StaticWebAssets.Manifest.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\staticwebassets\NidhikumariVadodariyaGroceryApp.StaticWebAssets.xml
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\scopedcss\bundle\NidhikumariVadodariyaGroceryApp.styles.css
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\scopedcss\projectbundle\NidhikumariVadodariyaGroceryApp.bundle.scp.css
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorTargetAssemblyInfo.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorTargetAssemblyInfo.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.Views.pdb
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.genruntimeconfig.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.csproj.CopyComplete
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\appsettings.json
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.StaticWebAssets.xml
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.exe
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.deps.json
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.runtimeconfig.json
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.runtimeconfig.dev.json
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\ref\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.pdb
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.Views.dll
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\bin\Debug\net5.0\NidhikumariVadodariyaGroceryApp.Views.pdb
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.csproj.AssemblyReference.cache
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.AssemblyInfoInputs.cache
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.AssemblyInfo.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.csproj.CoreCompileInputs.cache
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorComponent.input.cache
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\GroceryStore.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorComponent.output.cache
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\RazorDeclaration\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.TagHelpers.input.cache
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.TagHelpers.output.cache
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorCoreGenerate.cache
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\App.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\GroceryStore.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorAssemblyInfo.cache
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorAssemblyInfo.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\staticwebassets\NidhikumariVadodariyaGroceryApp.StaticWebAssets.Manifest.cache
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\staticwebassets\NidhikumariVadodariyaGroceryApp.StaticWebAssets.xml
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\scopedcss\bundle\NidhikumariVadodariyaGroceryApp.styles.css
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\scopedcss\projectbundle\NidhikumariVadodariyaGroceryApp.bundle.scp.css
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorTargetAssemblyInfo.cache
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.RazorTargetAssemblyInfo.cs
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.Views.pdb
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\ref\NidhikumariVadodariyaGroceryApp.dll
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.pdb
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.genruntimeconfig.cache
+C:\Users\apk44\Desktop\NidhikumariVadodariyaGroceryApp\NidhikumariVadodariyaGroceryApp\obj\Debug\net5.0\NidhikumariVadodariyaGroceryApp.csproj.CopyComplete

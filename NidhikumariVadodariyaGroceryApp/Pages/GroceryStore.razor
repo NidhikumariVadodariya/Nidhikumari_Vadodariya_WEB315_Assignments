@@ -1,12 +1,14 @@
 @page "/GroceryStore"
 
 @if (groceryIsle.Count != 0)
-{
-    <h1>Isle List</h1>
-}
-
+{   <h1>Isle List</h1> }
 
 <ul>
+
+    <h2>Grocery Store's Item</h2>
+
+    <h4>Choose the items accordingly by clicking the button</h4>
+
     @*Hide add product button if product added*@
     @if (groceryIsle.Count == 0)
     {
@@ -17,11 +19,8 @@
         <li><button class="btn btn-default" @onclick="() =>tmpItems=GetItems(GroceryIsle.isleNumber)">@GroceryIsle.isleName</button></li>
     }
 
-
     <br><br>
     <h3>@currentIsle</h3>
-
-
     @*Make a table for display food items*@
     <br><br>
     @if (groceryIsle.Count != 0)
@@ -32,30 +31,52 @@
                 <th width="150">Price</th>
                 <th width="150">Weight</th>
                 <th width="150">Quantity</th>
-
             </tr>
+            
             @foreach (var GroceryItem in tmpItems)
             {
                 <tr>
                     <td>@GroceryItem.foodItemName</td>
                     <td>@GroceryItem.foodItemPrice</td>
                     <td>@GroceryItem.foodItemWeight</td>
-                    <td><button class="btn btn-default" @onclick="() => GroceryItem.DescreaseQuaniity()">-</button>  @GroceryItem.Quantity<button class="btn btn-default"
-                    @onclick="() => GroceryItem.IncreaseQuaniity()">+</button></td>
+                    <td><button class="btn btn-default" @onclick="() => GroceryItem.DescreaseQuaniity()">-</button>
+                        @GroceryItem.Quantity<button class="btn btn-default" @onclick="() => GroceryItem.IncreaseQuaniity()">+</button></td>
                 </tr>
             }
         </table>
+        
+        <h3>Add new Product</h3>
+        <br>
+        <form class="form-inline">
+            <input type="text" @bind=productName class="form-control" id="txtFoodname" placeholder="Product name">
+            <input type="number" @bind=productPrice class="form-control" id="txtFoodPrice" placeholder="Price">
+            <input type="number" @bind=productQuantity class="form-control" id="txtFoodQuantity" placeholder="Quantity">
+            <input type="text" @bind=productWeight class="form-control" id="txtFoodWeight" placeholder="Weight">
+            
+            <select class="form-control" @bind=productIsle aria-label="Default select example">
+                <option value="-1" selected >Select isle</option>
+                
+                @foreach (var item in groceryIsle)
+                {
+                    <option value="@item.isleNumber">@item.isleName</option>
+                }
+            </select>
+            
+            <button type="button" @onclick=AddNewProduct class="btn btn-primary">Add Product</button>
+        </form>
     }
-
 </ul>
 
 
 @code {
-
-
     private List<GroceryIsle> groceryIsle = new List<GroceryIsle>();
     private List<FoodItem> tmpItems = new List<FoodItem>();
     private string currentIsle = "";
+    private string productName="";
+    private string productPrice="";
+    private string productQuantity="";
+    private string productWeight="";
+    private string productIsle="-1";
 
     @*Add isle and products*@
     private void AddProducts()
@@ -64,90 +85,99 @@
         GroceryIsle isl1 = new GroceryIsle();
         isl1.isleName = "Vegetables";
         isl1.isleNumber = 1;
-        isl1.FoodItemsList.Add(new FoodItem
-        {
+        isl1.FoodItemsList.Add(new FoodItem {
             Quantity = 1,
             foodItemName = "Tomato",
             foodItemWeight = "1/2 lb",
-            foodItemPrice =
-        1.45
-        });
-        isl1.FoodItemsList.Add(new FoodItem
-        {
+            foodItemPrice = 1.45 });
+    
+        isl1.FoodItemsList.Add(new FoodItem {
             Quantity = 1,
             foodItemName = "Onion",
             foodItemWeight = "1/2 lb",
-            foodItemPrice =
-        1.78
-        });
-        isl1.FoodItemsList.Add(new FoodItem
-        {
+            foodItemPrice = 1.78 });
+
+        isl1.FoodItemsList.Add(new FoodItem {
             Quantity = 1,
             foodItemName = "Carrot",
             foodItemWeight = "1/2 lb",
-            foodItemPrice =
-        2.00
-        });
+            foodItemPrice = 2.00 });
 
         GroceryIsle isl2 = new GroceryIsle();
         isl2.isleName = "Produce";
         isl2.isleNumber = 2;
-        isl2.FoodItemsList.Add(new FoodItem
-        {
+        isl2.FoodItemsList.Add(new FoodItem {
             Quantity = 15,
             foodItemName = "Apples",
             foodItemWeight = "1.5",
-            foodItemPrice =
-        2.99
-        });
-        isl2.FoodItemsList.Add(new FoodItem
-        {
+            foodItemPrice = 2.99 });
+
+        isl2.FoodItemsList.Add(new FoodItem {
             Quantity = 20,
             foodItemName = "Oranges",
             foodItemWeight = "1.5",
-            foodItemPrice =
-        5.99
-        });
-        isl2.FoodItemsList.Add(new FoodItem
-        {
+            foodItemPrice = 5.99 });
+
+        isl2.FoodItemsList.Add(new FoodItem {
             Quantity = 10,
             foodItemName = "Lemons",
             foodItemWeight = "1.5",
-            foodItemPrice =
-        1.99
-        });
-
+            foodItemPrice = 1.99 });
 
         GroceryIsle isl3 = new GroceryIsle();
         isl3.isleName = "Dairy";
         isl3.isleNumber = 3;
-        isl3.FoodItemsList.Add(new FoodItem
-        {
+        isl3.FoodItemsList.Add(new FoodItem {
             Quantity = 10,
             foodItemName = "Milk",
             foodItemWeight = "1.5",
-            foodItemPrice = 5.99
-        });
-        isl3.FoodItemsList.Add(new FoodItem
-        {
+            foodItemPrice = 5.99 });
+
+        isl3.FoodItemsList.Add(new FoodItem {
             Quantity = 20,
             foodItemName = "Yogurt",
             foodItemWeight = "1.5",
-            foodItemPrice =
-        2.79
-        });
-        isl3.FoodItemsList.Add(new FoodItem
-        {
+            foodItemPrice = 2.79 });
+
+        isl3.FoodItemsList.Add(new FoodItem {
             Quantity = 5,
             foodItemName = "Butter",
             foodItemWeight = "1.5",
-            foodItemPrice =
-        5.00
-        });
+            foodItemPrice = 5.00 });
 
         groceryIsle.Add(isl1);
         groceryIsle.Add(isl2);
         groceryIsle.Add(isl3);
+    }
+    private void AddNewProduct()
+    {
+        if(productIsle!="-1")
+        {
+            FoodItem newItem = new FoodItem();
+            //Validation
+            if(productName!="" && productPrice!="" && productQuantity!="" && productWeight!="" && Convert.ToInt32(productQuantity) > 0 && Convert.ToInt32(productQuantity) <= 20)
+            {
+                newItem.foodItemName = productName;
+                newItem.foodItemPrice = Convert.ToDouble(productPrice);
+                newItem.foodItemWeight = productWeight;
+                newItem.Quantity = Convert.ToInt32(productQuantity);
+                
+                foreach(var item in groceryIsle)
+                {
+                    if(item.isleNumber==Convert.ToInt32(productIsle))
+                    {
+                        item.FoodItemsList.Add(newItem);
+                    }
+                }
+                
+                //reset variables
+                productName = "";
+                productPrice = "";
+                productQuantity = "";
+                productWeight = "";
+                productIsle = "-1";
+            }
+        }
     }
 
     @*Get item from isle*@
