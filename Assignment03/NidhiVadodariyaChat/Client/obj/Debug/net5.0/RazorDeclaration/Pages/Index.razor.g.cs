@@ -98,14 +98,12 @@ using Microsoft.AspNetCore.SignalR.Client;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 31 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Client\Pages\Index.razor"
+#line 19 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Client\Pages\Index.razor"
        
     private HubConnection hubConnection;
     private List<string> messages = new List<string>();
     private string userInput;
     private string messageInput;
-
-    private bool SendMessage;
 
     protected override async Task OnInitializedAsync()
     {
@@ -120,18 +118,16 @@ using Microsoft.AspNetCore.SignalR.Client;
             StateHasChanged();
         });
 
-        Task SendMessage(string user, string message, bool Clients)
-        {
-        return Clients.All.SendAsync("ReceiveMessage", user, message);
-        }
-        await hubConnection.StartAsync();
+        await hubConnection.StartAsync(); 
     }
 
-    async Task Send() =>
-        await hubConnection.SendAsync("SendMessage", userInput, messageInput);
+    async Task SendMessageToOthers() =>
+        await hubConnection.SendAsync("Send", userInput, messageInput);
 
-    async Task SendToMyself() =>
-    await hubConnection.SendAsync("SendMessageToCaller", userInput, messageInput);
+    async Task Send() =>
+    await hubConnection.SendAsync("SendMessageToOthers", userInput, messageInput);
+
+    
 
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;

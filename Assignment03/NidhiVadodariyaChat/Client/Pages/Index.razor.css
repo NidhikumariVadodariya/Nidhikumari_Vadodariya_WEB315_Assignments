@@ -1,0 +1,31 @@
+.name {
+    color: rgba(194, 95, 95, 0.914);
+    font-family: cursive;
+}
+
+.msg {
+    color: rgba(194, 95, 95, 0.914);
+    font-family: cursive;
+    margin-top: 550px;
+}
+
+.messagesList {
+    font-family: cursive;
+    list-style-type: square;
+}
+
+.form-group {
+    width: 1070px;
+    padding: 5px; 
+    background-color: pink;
+}
+
+.sendme {
+    margin-left: 10px; 
+    font-family: cursive;
+}
+
+.sendothers {
+    margin-left: 15px; 
+    font-family: cursive;
+}

@@ -1,0 +1,31 @@
+.name[b-k18cwhlr3c] {
+    color: rgba(194, 95, 95, 0.914);
+    font-family: cursive;
+}
+
+.msg[b-k18cwhlr3c] {
+    color: rgba(194, 95, 95, 0.914);
+    font-family: cursive;
+    margin-top: 550px;
+}
+
+.messagesList[b-k18cwhlr3c] {
+    font-family: cursive;
+    list-style-type: square;
+}
+
+.form-group[b-k18cwhlr3c] {
+    width: 1070px;
+    padding: 5px; 
+    background-color: pink;
+}
+
+.sendme[b-k18cwhlr3c] {
+    margin-left: 10px; 
+    font-family: cursive;
+}
+
+.sendothers[b-k18cwhlr3c] {
+    margin-left: 15px; 
+    font-family: cursive;
+}

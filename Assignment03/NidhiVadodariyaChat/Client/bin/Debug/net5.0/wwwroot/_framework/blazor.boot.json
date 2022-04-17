@@ -204,12 +204,12 @@
       "netstandard.dll": "sha256-bY3Q1RCB\/lmUAo5AG5YDHBu5uD8OxCGAiJ+wukrs1pw=",
       "System.Private.CoreLib.dll": "sha256-25IZl0xgoqOBdkTlEjUBLmiiRGYCYI1BaFevKzE+EHk=",
       "NidhiVadodariyaChat.Shared.dll": "sha256-SLJMtCER97CJXGXFFVj2VCSLv8i1FHv+6Lsm6SgSV5U=",
-      "NidhiVadodariyaChat.Client.dll": "sha256-YKP1ZEMdJi854vLTJGScrTCNogBb+9HpCuHfrGfETRE="
+      "NidhiVadodariyaChat.Client.dll": "sha256-6JuPFejAJ8US+v0WrMNonaC0yo3Y8faHniXeSl6sykI="
     },
     "lazyAssembly": null,
     "pdb": {
       "NidhiVadodariyaChat.Shared.pdb": "sha256-3NOIB\/A5p9jhgwJQa89fgfrUAfLswcLJsCqVE9Cle2U=",
-      "NidhiVadodariyaChat.Client.pdb": "sha256-jJSjRGG0wGlqOUAOtddqN0NYgbW3QvbfghRFqdg0DG4="
+      "NidhiVadodariyaChat.Client.pdb": "sha256-Z48UYkawQPft2cbp9vVYCbbLqWZnVO+oOE1PFQveRqA="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-Ek+C0V\/4GBnUGH1\/X20UjHhjyp7se2MX+2RHWSpKSDE=",

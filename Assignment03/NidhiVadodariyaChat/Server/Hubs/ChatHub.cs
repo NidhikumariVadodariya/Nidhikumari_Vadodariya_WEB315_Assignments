@@ -1,13 +1,18 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR;
 
-namespace BlazorWebAssemblySignalRApp.Server.Hubs
+namespace NidhiVadodariyaChat.Server.Hubs
 {
     public class ChatHub : Hub
     {
-        public async Task SendMessage(string user, string message)
+        public async Task Send(string user, string message)
         {
-            await Clients.All.SendAsync("ReceiveMessage", user, message);
+            await Clients.Others.SendAsync("ReceiveMessage", user, message);
+        }
+
+        public async Task SendMessageToOthers(string user, string message)
+        {
+            await Clients.Caller.SendAsync("ReceiveMessage", user, message);
         }
     }
 }

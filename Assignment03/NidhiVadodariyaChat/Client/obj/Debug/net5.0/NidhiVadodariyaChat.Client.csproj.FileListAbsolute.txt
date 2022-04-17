@@ -658,3 +658,4 @@ C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignmen
 C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Client\obj\Debug\net5.0\NidhiVadodariyaChat.Client.dll
 C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Client\obj\Debug\net5.0\ref\NidhiVadodariyaChat.Client.dll
 C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Client\obj\Debug\net5.0\NidhiVadodariyaChat.Client.pdb
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Client\obj\Debug\net5.0\scopedcss\Pages\Index.razor.rz.scp.css

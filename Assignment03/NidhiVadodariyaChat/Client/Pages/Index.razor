@@ -4,24 +4,12 @@
 @implements IAsyncDisposable
 
 <div class="form-group">
-    <label>
+    <label class="name">
         Name:
         <input @bind="userInput" />
     </label>
-</div>
-<div class="form-group">
-    <label>
-        Message:
-        <input @bind="messageInput" size="50" />
-    </label>
-</div>
-<button @onclick="Send" disabled="@(!IsConnected)">Send</button>
-<button @onclick="SendToMyself" disabled="@(!IsConnected)">Send Me</button>
 
-
-<hr>
-
-<ul id="messagesList">
+<ul class="messagesList">
     @foreach (var message in messages)
     {
         <li>@message</li>
@@ -33,8 +21,6 @@
     private List<string> messages = new List<string>();
     private string userInput;
     private string messageInput;
-
-    private bool SendMessage;
 
     protected override async Task OnInitializedAsync()
     {
@@ -49,18 +35,16 @@
             StateHasChanged();
         });
 
-        Task SendMessage(string user, string message, bool Clients)
-        {
-        return Clients.All.SendAsync("ReceiveMessage", user, message);
-        }
-        await hubConnection.StartAsync();
+        await hubConnection.StartAsync(); 
     }
 
-    async Task Send() =>
-        await hubConnection.SendAsync("SendMessage", userInput, messageInput);
+    async Task SendMessageToOthers() =>
+        await hubConnection.SendAsync("Send", userInput, messageInput);
 
-    async Task SendToMyself() =>
-    await hubConnection.SendAsync("SendMessageToCaller", userInput, messageInput);
+    async Task Send() =>
+    await hubConnection.SendAsync("SendMessageToOthers", userInput, messageInput);
+
+    
 
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;
@@ -73,3 +57,12 @@
         }
     }
 }
+
+    <label class="msg">
+        <input @bind="messageInput" size="60" placeholder="Type a mesage.."/>
+        <button @onclick="Send" class="sendme" disabled="@(!IsConnected)">Send Me</button>
+        <button @onclick="SendMessageToOthers" class="sendothers" disabled="@(!IsConnected)">Send To Others</button>
+    </label>
+</div>
+
+
