@@ -8,6 +8,92 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": -719824416,
+        "Kind": "Components.Component",
+        "Name": "NidhiVadodariyaChat.Client.App",
+        "AssemblyName": "NidhiVadodariyaChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NidhiVadodariyaChat.Client.App"
+        }
+      },
+      {
+        "HashCode": -1108963344,
+        "Kind": "Components.Component",
+        "Name": "NidhiVadodariyaChat.Client.App",
+        "AssemblyName": "NidhiVadodariyaChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NidhiVadodariyaChat.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NidhiVadodariyaChat.Client.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1512331321,
+        "Kind": "Components.Component",
+        "Name": "NidhiVadodariyaChat.Client.Shared.SurveyPrompt",
+        "AssemblyName": "NidhiVadodariyaChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NidhiVadodariyaChat.Client.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 1614540662,
+        "Kind": "Components.Component",
+        "Name": "NidhiVadodariyaChat.Client.Shared.SurveyPrompt",
+        "AssemblyName": "NidhiVadodariyaChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NidhiVadodariyaChat.Client.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NidhiVadodariyaChat.Client.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1909281007,
         "Kind": "Components.Component",
         "Name": "NidhiVadodariyaChat.Client.Shared.MainLayout",
@@ -104,59 +190,6 @@
         }
       },
       {
-        "HashCode": 1512331321,
-        "Kind": "Components.Component",
-        "Name": "NidhiVadodariyaChat.Client.Shared.SurveyPrompt",
-        "AssemblyName": "NidhiVadodariyaChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhiVadodariyaChat.Client.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 1614540662,
-        "Kind": "Components.Component",
-        "Name": "NidhiVadodariyaChat.Client.Shared.SurveyPrompt",
-        "AssemblyName": "NidhiVadodariyaChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NidhiVadodariyaChat.Client.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhiVadodariyaChat.Client.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1499655261,
         "Kind": "Components.Component",
         "Name": "NidhiVadodariyaChat.Client.Shared.NavMenu",
@@ -186,72 +219,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "NidhiVadodariyaChat.Client.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -719824416,
-        "Kind": "Components.Component",
-        "Name": "NidhiVadodariyaChat.Client.App",
-        "AssemblyName": "NidhiVadodariyaChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhiVadodariyaChat.Client.App"
-        }
-      },
-      {
-        "HashCode": -1108963344,
-        "Kind": "Components.Component",
-        "Name": "NidhiVadodariyaChat.Client.App",
-        "AssemblyName": "NidhiVadodariyaChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NidhiVadodariyaChat.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhiVadodariyaChat.Client.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1148145208,
-        "Kind": "Components.Component",
-        "Name": "NidhiVadodariyaChat.Client.Pages.Index",
-        "AssemblyName": "NidhiVadodariyaChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhiVadodariyaChat.Client.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1300218974,
-        "Kind": "Components.Component",
-        "Name": "NidhiVadodariyaChat.Client.Pages.Index",
-        "AssemblyName": "NidhiVadodariyaChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NidhiVadodariyaChat.Client.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NidhiVadodariyaChat.Client.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -318,6 +285,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "NidhiVadodariyaChat.Client.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1148145208,
+        "Kind": "Components.Component",
+        "Name": "NidhiVadodariyaChat.Client.Pages.Index",
+        "AssemblyName": "NidhiVadodariyaChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NidhiVadodariyaChat.Client.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1300218974,
+        "Kind": "Components.Component",
+        "Name": "NidhiVadodariyaChat.Client.Pages.Index",
+        "AssemblyName": "NidhiVadodariyaChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NidhiVadodariyaChat.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NidhiVadodariyaChat.Client.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

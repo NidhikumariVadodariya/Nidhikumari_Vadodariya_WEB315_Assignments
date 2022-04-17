@@ -16,6 +16,8 @@
     </label>
 </div>
 <button @onclick="Send" disabled="@(!IsConnected)">Send</button>
+<button @onclick="SendToMyself" disabled="@(!IsConnected)">Send Me</button>
+
 
 <hr>
 
@@ -32,24 +34,33 @@
     private string userInput;
     private string messageInput;
 
+    private bool SendMessage;
+
     protected override async Task OnInitializedAsync()
     {
         hubConnection = new HubConnectionBuilder()
             .WithUrl(NavigationManager.ToAbsoluteUri("/chathub"))
             .Build();
-
-        hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
-        {
-            var encodedMsg = $"{user}: {message}";
-            messages.Add(encodedMsg);
+            
+       hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+       {
+           var encodedMsg = $"{user}: {message}";
+           messages.Add(encodedMsg);
             StateHasChanged();
         });
 
+        Task SendMessage(string user, string message, bool Clients)
+        {
+        return Clients.All.SendAsync("ReceiveMessage", user, message);
+        }
         await hubConnection.StartAsync();
     }
 
     async Task Send() =>
         await hubConnection.SendAsync("SendMessage", userInput, messageInput);
+
+    async Task SendToMyself() =>
+    await hubConnection.SendAsync("SendMessageToCaller", userInput, messageInput);
 
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;
