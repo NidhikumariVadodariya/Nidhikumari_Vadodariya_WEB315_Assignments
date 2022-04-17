@@ -59,7 +59,7 @@
 }
 
     <label class="msg">
-        <input @bind="messageInput" size="60" placeholder="Type a mesage.."/>
+        <input @bind="messageInput" size ="80px" placeholder="Type a mesage.."/>
         <button @onclick="Send" class="sendme" disabled="@(!IsConnected)">Send Me</button>
         <button @onclick="SendMessageToOthers" class="sendothers" disabled="@(!IsConnected)">Send To Others</button>
     </label>

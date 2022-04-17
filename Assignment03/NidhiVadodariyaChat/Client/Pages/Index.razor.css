@@ -6,7 +6,7 @@
 .msg {
     color: rgba(194, 95, 95, 0.914);
     font-family: cursive;
-    margin-top: 550px;
+    margin-top: 590px;
 }
 
 .messagesList {
@@ -15,9 +15,10 @@
 }
 
 .form-group {
-    width: 1070px;
+    width: 1090px;
     padding: 5px; 
     background-color: pink;
+    border: 4px ridge;
 }
 
 .sendme {
