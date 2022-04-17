@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\Assignment03\\NidhiVadodariyaChat\\Server\\NidhiVadodariyaChat.Server.csproj": {}
+    "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\Assignment03\\NidhiVadodariyaChat\\server\\NidhiVadodariyaChat.Server.csproj": {}
   },
   "projects": {
     "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\Assignment03\\NidhiVadodariyaChat\\Client\\NidhiVadodariyaChat.Client.csproj": {
@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[5.0.14, )"
             },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -86,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\Assignment03\\NidhiVadodariyaChat\\Server\\NidhiVadodariyaChat.Server.csproj": {
+    "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\Assignment03\\NidhiVadodariyaChat\\server\\NidhiVadodariyaChat.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\Assignment03\\NidhiVadodariyaChat\\Server\\NidhiVadodariyaChat.Server.csproj",
+        "projectUniqueName": "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\Assignment03\\NidhiVadodariyaChat\\server\\NidhiVadodariyaChat.Server.csproj",
         "projectName": "NidhiVadodariyaChat.Server",
-        "projectPath": "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\Assignment03\\NidhiVadodariyaChat\\Server\\NidhiVadodariyaChat.Server.csproj",
+        "projectPath": "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\Assignment03\\NidhiVadodariyaChat\\server\\NidhiVadodariyaChat.Server.csproj",
         "packagesPath": "C:\\Users\\nidhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\Assignment03\\NidhiVadodariyaChat\\Server\\obj\\",
+        "outputPath": "C:\\Users\\nidhi\\OneDrive\\Documents\\GitHub\\Nidhikumari_Vadodariya_WEB315_Assignments\\Assignment03\\NidhiVadodariyaChat\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nidhi\\AppData\\Roaming\\NuGet\\NuGet.Config"

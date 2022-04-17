@@ -1,0 +1,12 @@
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Shared\bin\Debug\net5.0\NidhiVadodariyaChat.Shared.deps.json
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Shared\bin\Debug\net5.0\NidhiVadodariyaChat.Shared.dll
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Shared\bin\Debug\net5.0\ref\NidhiVadodariyaChat.Shared.dll
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Shared\bin\Debug\net5.0\NidhiVadodariyaChat.Shared.pdb
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Shared\obj\Debug\net5.0\NidhiVadodariyaChat.Shared.csproj.AssemblyReference.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Shared\obj\Debug\net5.0\NidhiVadodariyaChat.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Shared\obj\Debug\net5.0\NidhiVadodariyaChat.Shared.AssemblyInfoInputs.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Shared\obj\Debug\net5.0\NidhiVadodariyaChat.Shared.AssemblyInfo.cs
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Shared\obj\Debug\net5.0\NidhiVadodariyaChat.Shared.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Shared\obj\Debug\net5.0\NidhiVadodariyaChat.Shared.dll
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Shared\obj\Debug\net5.0\ref\NidhiVadodariyaChat.Shared.dll
+C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Shared\obj\Debug\net5.0\NidhiVadodariyaChat.Shared.pdb
