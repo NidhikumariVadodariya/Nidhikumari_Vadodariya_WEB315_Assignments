@@ -1,10 +1,10 @@
 .name[b-k18cwhlr3c] {
-    color: rgba(194, 95, 95, 0.914);
+    color: rgb(170, 51, 106);
     font-family: cursive;
 }
 
 .msg[b-k18cwhlr3c] {
-    color: rgba(194, 95, 95, 0.914);
+    color: rgb(170, 51, 106);
     font-family: cursive;
     margin-top: 590px;
 }
@@ -12,6 +12,13 @@
 .messagesList[b-k18cwhlr3c] {
     font-family: cursive;
     list-style-type: square;
+    border: 4px ridge;
+    color: rgb(170, 51, 106);
+    width: auto; 
+}
+
+.messagestyle[b-k18cwhlr3c] {
+    border: 4px ridge;
 }
 
 .form-group[b-k18cwhlr3c] {

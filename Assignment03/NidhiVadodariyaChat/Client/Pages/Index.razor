@@ -1,9 +1,89 @@
-﻿@page "/"
+﻿@* @page "/"
+@using Microsoft.AspNetCore.SignalR.Client
+@inject NavigationManager NavigationManager
+@implements IAsyncDisposable *@
+
+@page "/"
 @using Microsoft.AspNetCore.SignalR.Client
 @inject NavigationManager NavigationManager
 @implements IAsyncDisposable
 
 <div class="form-group">
+    <label class="name">
+        Name:
+        <input @bind="userInput" />
+    </label>
+@* </div>
+
+<div class="form-group">
+    <label>
+        Message:
+        <input @bind="messageInput" size="50" />
+    </label>
+</div>
+<button @onclick="Send" disabled="@(!IsConnected)">Send</button>
+
+<hr>
+ *@
+<ul class="messagesList">
+    @foreach (var message in messages)
+    {
+        <li>@message</li>
+    }
+</ul>
+
+@code {
+    private HubConnection hubConnection;
+    private List<string> messages = new List<string>();
+    private string userInput;
+    private string messageInput;
+
+    protected override async Task OnInitializedAsync()
+    {
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl(NavigationManager.ToAbsoluteUri("/chathub"))
+            .Build();
+
+        hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+        {
+            var encodedMsg = $"{user}: {message}";
+            messages.Add(encodedMsg);
+            StateHasChanged();
+        });
+
+        await hubConnection.StartAsync();
+    }
+
+    async Task Send() =>
+        await hubConnection.SendAsync("Send", userInput, messageInput);
+    
+    async Task SendMessageToOthers() =>
+        await hubConnection.SendAsync("SendMessageToOthers", userInput, messageInput);
+
+
+    public bool IsConnected =>
+        hubConnection.State == HubConnectionState.Connected;
+
+    public async ValueTask DisposeAsync()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.DisposeAsync();
+        }
+    }
+}
+
+<label class="msg">
+        <input @bind="messageInput" size ="80px" placeholder="Type any message.."/>
+        <button @onclick="Send" class="sendme" disabled="@(!IsConnected)">Send Me</button>
+        <button @onclick="SendMessageToOthers" class="sendothers" disabled="@(!IsConnected)">Send To Others</button>
+    </label>
+</div>
+
+
+
+
+@* <div class="form-group">
     <label class="name">
         Name:
         <input @bind="userInput" />
@@ -31,7 +111,7 @@
        hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
        {
            var encodedMsg = $"{user}: {message}";
-           messages.Add(encodedMsg);
+            messages.Add(message);
             StateHasChanged();
         });
 
@@ -42,8 +122,7 @@
         await hubConnection.SendAsync("Send", userInput, messageInput);
 
     async Task Send() =>
-    await hubConnection.SendAsync("SendMessageToOthers", userInput, messageInput);
-
+        await hubConnection.SendAsync("SendMessageToOthers", userInput, messageInput);
     
 
     public bool IsConnected =>
@@ -59,10 +138,11 @@
 }
 
     <label class="msg">
-        <input @bind="messageInput" size ="80px" placeholder="Type a mesage.."/>
+        <input @bind="messageInput" size ="80px" placeholder="Type any message.."/>
         <button @onclick="Send" class="sendme" disabled="@(!IsConnected)">Send Me</button>
         <button @onclick="SendMessageToOthers" class="sendothers" disabled="@(!IsConnected)">Send To Others</button>
     </label>
 </div>
 
 
+ *@

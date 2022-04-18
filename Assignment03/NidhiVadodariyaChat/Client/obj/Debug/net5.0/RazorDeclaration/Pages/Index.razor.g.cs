@@ -83,7 +83,7 @@ using NidhiVadodariyaChat.Client.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Client\Pages\Index.razor"
+#line 7 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Client\Pages\Index.razor"
 using Microsoft.AspNetCore.SignalR.Client;
 
 #line default
@@ -98,7 +98,7 @@ using Microsoft.AspNetCore.SignalR.Client;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 19 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Client\Pages\Index.razor"
+#line 35 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Client\Pages\Index.razor"
        
     private HubConnection hubConnection;
     private List<string> messages = new List<string>();
@@ -110,24 +110,23 @@ using Microsoft.AspNetCore.SignalR.Client;
         hubConnection = new HubConnectionBuilder()
             .WithUrl(NavigationManager.ToAbsoluteUri("/chathub"))
             .Build();
-            
-       hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
-       {
-           var encodedMsg = $"{user}: {message}";
-           messages.Add(encodedMsg);
+
+        hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+        {
+            var encodedMsg = $"{user}: {message}";
+            messages.Add(encodedMsg);
             StateHasChanged();
         });
 
-        await hubConnection.StartAsync(); 
+        await hubConnection.StartAsync();
     }
 
-    async Task SendMessageToOthers() =>
-        await hubConnection.SendAsync("Send", userInput, messageInput);
-
     async Task Send() =>
-    await hubConnection.SendAsync("SendMessageToOthers", userInput, messageInput);
-
+        await hubConnection.SendAsync("Send", userInput, messageInput);
     
+    async Task SendMessageToOthers() =>
+        await hubConnection.SendAsync("SendMessageToOthers", userInput, messageInput);
+
 
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;

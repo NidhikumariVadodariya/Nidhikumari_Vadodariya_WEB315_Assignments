@@ -1,10 +1,10 @@
 .name {
-    color: rgba(194, 95, 95, 0.914);
+    color: rgb(170, 51, 106);
     font-family: cursive;
 }
 
 .msg {
-    color: rgba(194, 95, 95, 0.914);
+    color: rgb(170, 51, 106);
     font-family: cursive;
     margin-top: 590px;
 }
@@ -12,6 +12,13 @@
 .messagesList {
     font-family: cursive;
     list-style-type: square;
+    border: 4px ridge;
+    color: rgb(170, 51, 106);
+    width: auto; 
+}
+
+.messagestyle {
+    border: 4px ridge;
 }
 
 .form-group {
