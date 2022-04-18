@@ -34,11 +34,13 @@
 .sendme[b-k18cwhlr3c] {
     margin-left: 10px; 
     font-family: cursive;
+    color: rgb(170, 51, 106);
 }
 
 .sendothers[b-k18cwhlr3c] {
     margin-left: 15px; 
     font-family: cursive;
+    color: rgb(170, 51, 106);
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-c9segxb47l] {

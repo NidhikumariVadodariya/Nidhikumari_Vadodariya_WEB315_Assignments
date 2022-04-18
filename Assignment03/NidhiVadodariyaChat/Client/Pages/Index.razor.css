@@ -31,9 +31,11 @@
 .sendme {
     margin-left: 10px; 
     font-family: cursive;
+    color: rgb(170, 51, 106);
 }
 
 .sendothers {
     margin-left: 15px; 
     font-family: cursive;
+    color: rgb(170, 51, 106);
 }

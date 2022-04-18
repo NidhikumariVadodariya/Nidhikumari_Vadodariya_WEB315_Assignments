@@ -98,7 +98,7 @@ using Microsoft.AspNetCore.SignalR.Client;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 35 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Client\Pages\Index.razor"
+#line 24 "C:\Users\nidhi\OneDrive\Documents\GitHub\Nidhikumari_Vadodariya_WEB315_Assignments\Assignment03\NidhiVadodariyaChat\Client\Pages\Index.razor"
        
     private HubConnection hubConnection;
     private List<string> messages = new List<string>();
@@ -113,9 +113,10 @@ using Microsoft.AspNetCore.SignalR.Client;
 
         hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
         {
-            var encodedMsg = $"{user}: {message}";
+            var encodedMsg = $"{message}";
             messages.Add(encodedMsg);
             StateHasChanged();
+
         });
 
         await hubConnection.StartAsync();
